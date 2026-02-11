@@ -1,0 +1,24 @@
+
+
+
+.btn{
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 15px 10px 0px 0px;
+}
+
+
+.primary{
+    background-color: #2275b0;
+}
+
+.secondary{
+    background-color:brown
+}
+
+.success{
+    background-color: #4CAF50;
+}
