@@ -1,7 +1,8 @@
 .blogContainer {
     padding: 20px;
     display: flex;
-    flex-wrap: nowrap;
+    flex-direction: column;
+    gap: 16px;
 }
 
 .blogList {
@@ -22,3 +23,6 @@
     border-radius: 5px;
     width: 25%;
 }
+
+.topBar{display:flex;justify-content:flex-end}
+.spinner{margin:40px auto}

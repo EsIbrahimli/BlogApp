@@ -65,19 +65,6 @@ const Layouts = ({ children }) => {
             items={items}
             style={{ flex: 1, minWidth: 0, backgroundColor: '#2275b0' }}
           />
-          <Link
-            to={Router.CreateBlog}
-            style={{
-              color: '#fff',
-              padding: '0px 12px',
-              fontSize: 16,
-              cursor: 'pointer',
-              textAlign: 'right',
-            }}
-          >
-            Create New Blog
-          </Link>
-
         </Flex>
       </Header>
       <Content style={{ padding: '0 48px' }}>
