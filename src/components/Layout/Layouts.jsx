@@ -1,4 +1,4 @@
-import { Layout, Menu, theme, Flex} from 'antd';
+import { Layout, Menu, theme, Flex } from 'antd';
 import { Link } from 'react-router-dom';
 import { Router } from '../../Router/Router';
 import React from 'react'
@@ -46,25 +46,38 @@ const Layouts = ({ children }) => {
         }}
       >
         <Flex align="center" justify="space-between" style={{ width: '100%' }}>
-        <div
-          style={{
-            color: '#fff',
-            fontWeight: 'bold',
-            fontSize: 20,
-            marginRight: 24,
-            cursor: 'pointer',
-            flex:1
-          }}
-        >
-          Blog App
-        </div>
-        <Menu
-          theme="dark"
-          mode="horizontal"
-          defaultSelectedKeys={['2']}
-          items={items}
-          style={{flex:1, minWidth: 0, backgroundColor:'#2275b0' }}
-        />
+          <div
+            style={{
+              color: '#fff',
+              fontWeight: 'bold',
+              fontSize: 20,
+              marginRight: 24,
+              cursor: 'pointer',
+              flex: 1
+            }}
+          >
+            Blog App
+          </div>
+          <Menu
+            theme="dark"
+            mode="horizontal"
+            defaultSelectedKeys={['2']}
+            items={items}
+            style={{ flex: 1, minWidth: 0, backgroundColor: '#2275b0' }}
+          />
+          <Link
+            to={Router.CreateBlog}
+            style={{
+              color: '#fff',
+              padding: '0px 12px',
+              fontSize: 16,
+              cursor: 'pointer',
+              textAlign: 'right',
+            }}
+          >
+            Create New Blog
+          </Link>
+
         </Flex>
       </Header>
       <Content style={{ padding: '0 48px' }}>
