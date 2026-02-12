@@ -8,6 +8,7 @@ const About = lazy(() => import('./pages/About'))
 const Contact = lazy(() => import('./pages/Contact'))
 const Blog = lazy(() => import('./pages/Blogs'))
 const BlogDetail = lazy(() => import('./pages/Blogs/BlogDetail'))
+const NotFound = lazy(() => import('./pages/NotFound'))
 
 import './App.css'
 
@@ -21,7 +22,7 @@ function App() {
         <Route path={Router.Contact} element={<Contact />} />
         <Route path={Router.Blogs} element={<Blog />} />
         <Route path={Router.BlogDetail} element={<BlogDetail />} />
-        <Route path={Router.NotFound} element={<h1>404 Not Found</h1>} />
+        <Route path={Router.NotFound} element={<NotFound />} />
      </Routes>
    </Suspense>
   )

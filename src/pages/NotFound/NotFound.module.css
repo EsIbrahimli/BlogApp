@@ -1,0 +1,27 @@
+
+
+
+.notFound {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+    padding: 18rem 0rem;
+}
+
+.icon {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+
+.title {
+  font-size: 2.5rem;
+  color: #345484;
+  margin-bottom: 0.5rem;
+}
+
+.text {
+  font-size: 1.2rem;
+  color: #555;
+}
