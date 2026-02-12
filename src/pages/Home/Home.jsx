@@ -25,7 +25,7 @@ const Home = () => {
               <Button variant="secondary">Create a Post</Button>
             </Link>
           </div>
-        </div>git
+        </div>
       </section>
 
       <section className={styles.features}>
