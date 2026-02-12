@@ -6,5 +6,6 @@ export const Router={
   About: '/about',
   Contact: '/contact',
   Blogs: '/blog',
+  BlogDetail: '/blog/:id',
   NotFound: '*'
 }
