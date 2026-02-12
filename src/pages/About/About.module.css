@@ -1,0 +1,50 @@
+/* About page styles */
+.about {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  padding: 2.5rem 1.25rem;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.content {
+  flex: 1 1 60%;
+}
+
+.title {
+  font-size: 2rem;
+  margin: 0 0 0.5rem 0;
+  color: #0c4a6e;
+}
+
+.description {
+  color: #475569;
+  line-height: 1.6;
+  margin-bottom: 0.75rem;
+}
+
+.imageWrap {
+  width: 360px;
+  flex-shrink: 0;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px;
+  box-shadow: 0 8px 28px rgba(2,6,23,0.08);
+}
+
+@media (max-width: 780px) {
+  .about {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  .imageWrap {
+    width: 80%;
+    margin-bottom: 1rem;
+  }
+}
