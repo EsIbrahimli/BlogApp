@@ -1,6 +1,6 @@
 import { Layout, Menu, theme, Flex } from 'antd';
 import { Link } from 'react-router-dom';
-import { Router } from '../../Router/Router';
+import { Router } from '../../Router/router';
 import React from 'react'
 
 const { Header, Content, Footer } = Layout;
