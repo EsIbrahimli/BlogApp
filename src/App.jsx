@@ -7,6 +7,7 @@ import Contact from './pages/Contact'
 import Blog from './pages/Blogs'
 
 import './App.css'
+import BlogDetail from './pages/Blogs/BlogDetail'
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
       <Route path={Router.About} element={<About />} />
       <Route path={Router.Contact} element={<Contact />} />
       <Route path={Router.Blogs} element={<Blog />} />
+      <Route path={Router.BlogDetail} element={<BlogDetail />} />
       <Route path={Router.NotFound} element={<h1>404 Not Found</h1>} />
    </Routes>
   )
