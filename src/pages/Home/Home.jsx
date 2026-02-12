@@ -3,7 +3,7 @@ import Layouts from '../../components/Layout/Layouts.jsx';
 import styles from './Home.module.css';
 import Button from '../../components/Button/Button.jsx';
 import { Link } from 'react-router-dom';
-import { Router } from '../../Router/Router.js';
+import { Router } from '../../Router/router.js';
 import { useBlogStore } from '../../store/useBlogStore.js';
 import React from 'react';
 
@@ -25,7 +25,7 @@ const Home = () => {
               <Button variant="secondary">Create a Post</Button>
             </Link>
           </div>
-        </div>
+        </div>git
       </section>
 
       <section className={styles.features}>
